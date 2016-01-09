@@ -1,0 +1,46 @@
+/**vertical-middle Start**/
+.vim {
+  &_ > *{
+    @extend .vam;
+    @extend .dib;
+  }
+  &_ > ._fix {
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+  }
+}
+
+.vim-center {
+  & > * {
+    @extend .vam;
+    @extend .dib;
+  }
+  &:after {
+    @extend .vam;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    content: '\200b';
+  }
+}
+
+.vim-center_ > * {
+  @extend .vim-center;
+}
+
+//extend vertical-align:
+.vam_ > * {
+  @extend .vam;
+}
+
+.vat_ > * {
+  @extend .vat;
+}
+
+.vab_ > * {
+  @extend .vab;
+}
+
+/**vertical-middle  End**/

@@ -1,0 +1,9 @@
+/**eq-height Start**/
+.eq-height_ {
+  @extend .dtb;
+  & > * {
+    @extend .dtbc;
+  }
+}
+
+/**eq-height  End**/
