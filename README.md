@@ -1,4 +1,4 @@
-#webkit-scss-material
+#webkit-css-material
 
 ##usage:
 
