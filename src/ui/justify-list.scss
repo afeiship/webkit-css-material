@@ -3,8 +3,8 @@
 .justify-list_ {
   vertical-align: top;
   text-align: justify;
-  text-justify: distribute-all-lines; /* distribute items in IE */
-  *zoom:1;
+  //text-justify: distribute-all-lines; /* distribute items in IE */
+  //*zoom:1;
   & > * {
     text-align: left; /* customize to suit */
     vertical-align: top;
@@ -16,8 +16,7 @@
   */
   &:after {
     display: inline-block;
-    content:'.';
-    visibility: hidden;
+    content:'\200b';
     overflow: hidden;
     height: 0;
     width: 100%;
