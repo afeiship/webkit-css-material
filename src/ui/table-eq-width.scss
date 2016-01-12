@@ -1,0 +1,10 @@
+/**table-eq-width Start**/
+.table-eq-width {
+  display: table;
+  > * {
+    display: table-cell;
+    width: 1%;
+  }
+}
+
+/**table-eq-width  End**/

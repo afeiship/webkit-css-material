@@ -1,0 +1,10 @@
+/**table-eq-height Start**/
+.table-eq-height {
+  display: table;
+  > * {
+    display: table-row;
+    height: 1%;
+  }
+}
+
+/**table-eq-height  End**/

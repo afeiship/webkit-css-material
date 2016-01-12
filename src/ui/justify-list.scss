@@ -3,7 +3,8 @@
 .justify-list_ {
   vertical-align: top;
   text-align: justify;
-  @extend .clearfix;
+  text-justify: distribute-all-lines; /* distribute items in IE */
+  *zoom:1;
   & > * {
     text-align: left; /* customize to suit */
     vertical-align: top;
@@ -13,9 +14,10 @@
   /*
   Attention:IE7 don't need the solution when you use span/a/input and the other default inline element.
   */
-  :after {
+  &:after {
     display: inline-block;
-    content:'\200b';
+    content:'.';
+    visibility: hidden;
     overflow: hidden;
     height: 0;
     width: 100%;
