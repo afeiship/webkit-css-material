@@ -1,7 +1,8 @@
 /*core start*/
-$html-font-size:20;
+// will be set by javascript:
+//$html-font-size:20;
 
-$body-font-size: 60%;
+$body-font-size: toRem(12);
 $body-line-height: 1;
 $body-font-family: Microsoft YaHei, "\5b8b\4f53", Arial, "sans-serif";
 
