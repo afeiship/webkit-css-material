@@ -4,7 +4,7 @@
 }
 
 .wp {
-  @for $i from 1 through 10 {
+  @for $i from 1 through $wp-max {
     &-#{$i} {
       &,
       &_ > * {
@@ -15,7 +15,7 @@
 }
 
 .w1 {
-  @for $i from 1 through 10 {
+  @for $i from 1 through $w1-max {
     &-#{$i} {
       &,
       &_ > * {
