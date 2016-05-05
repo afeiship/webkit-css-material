@@ -14,8 +14,8 @@
 + gulp
 
 ##description:
-+ style.scss for dest
-+ _init.scss for toolkit
++ style.scss as style
++ _init.scss as toolkit
 
 ##rem support:
 + 10px/50=0.2rem;
