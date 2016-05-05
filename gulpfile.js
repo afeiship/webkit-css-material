@@ -13,27 +13,27 @@ var autoprefixer = require('gulp-autoprefixer');
 var debug = require('gulp-debug');
 var sourcemaps = require('gulp-sourcemaps');
 var config = {
-    sassOptions: {
-        outputStyle: 'compressed' /* nested | expanded | compact | compressed */
-    },
-    src: './src',
-    dist: './dist'
+  sassOptions: {
+    outputStyle: 'compressed' /* nested | expanded | compact | compressed */
+  },
+  src: './src',
+  dist: './dist'
 };
 
 
 gulp.task('clean', function () {
-    return del(config.dist);
+  return del(config.dist);
 });
 
 gulp.task('sass', function () {
-    return gulp.src(config.src + '/style.scss')
-        .pipe(sourcemaps.init())
-        .pipe(sass(config.sassOptions).on('error', sass.logError))
-        .pipe(autoprefixer('last 4 version'))
-        .pipe(sourcemaps.write())
-        .pipe(gulp.dest(config.dist));
+  return gulp.src(config.src + '/style.scss')
+    .pipe(sourcemaps.init())
+    .pipe(sass(config.sassOptions).on('error', sass.logError))
+    .pipe(autoprefixer('last 4 version'))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest(config.dist));
 });
 
 gulp.task('default', ['clean'], function () {
-    gulp.start(['sass']);
+  gulp.start(['sass']);
 });
