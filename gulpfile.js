@@ -14,7 +14,7 @@ var debug = require('gulp-debug');
 var sourcemaps = require('gulp-sourcemaps');
 var config = {
     sassOptions: {
-        outputStyle: 'expanded' /* nested | expanded | compact | compressed */
+        outputStyle: 'compressed' /* nested | expanded | compact | compressed */
     },
     src: './src',
     dist: './dist'
@@ -34,4 +34,6 @@ gulp.task('sass', function () {
         .pipe(gulp.dest(config.dist));
 });
 
-gulp.task('default', ['clean', 'sass']);
+gulp.task('default', ['clean'], function () {
+    gulp.start(['sass']);
+});

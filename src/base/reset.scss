@@ -1,5 +1,5 @@
 /**reset Start**/
-*,:after,:before {
+*, :after, :before {
   box-sizing: border-box;
 }
 
@@ -7,17 +7,30 @@ html,
 body {
   height: 100%;
   width: 100%;
-  overflow-x:hidden;
-  overflow-y:auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   -webkit-font-smoothing: antialiased;
 }
 
 html {
-  font-size: #{$html-font-size}px;
+  font-size: 62.5%;
 }
 
 body {
-  font:$body-font-size/$body-line-height $body-font-family;
+  font-family: 'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none
+}
+
+a, img {
+  -webkit-touch-callout: none
 }
 
 body, div, dl, dt, dd, ul, ol, li,

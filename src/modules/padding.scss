@@ -2,8 +2,8 @@
 
 
 
-@each $value in $margin-list {
-  @each $key, $val in $margin-direction-map {
+@each $value in $padding-list {
+  @each $key, $val in $padding-direction-map {
     @if $key==px{
       .#{$key}#{$value} {
         &,
