@@ -14,7 +14,7 @@ var debug = require('gulp-debug');
 var sourcemaps = require('gulp-sourcemaps');
 var config = {
   sassOptions: {
-    outputStyle: 'compressed' /* nested | expanded | compact | compressed */
+    outputStyle: 'expanded' /* nested | expanded | compact | compressed */
   },
   src: './src',
   dist: './dist'

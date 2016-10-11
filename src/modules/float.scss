@@ -13,15 +13,15 @@
   }
 }
 
-.lfix {
+.lfix_ {
   @extend .clfix;
-  &_ > * {
+  & > * {
     float: left;
   }
 }
-.rfix {
+.rfix_ {
   @extend .clfix;
-  &_ > * {
+  & > * {
     float: right;
   }
 }
