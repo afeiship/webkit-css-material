@@ -1,6 +1,6 @@
 {
-  "name": "webkit-material",
-  "description": "webkit css material of scss version.",
+  "name": "webkit-sass-material",
+  "description": "webkit sass material of scss version.",
   "main": [
     "dist/webkit-sass-material.css",
     "dist/webkit-sass-material.scss"
