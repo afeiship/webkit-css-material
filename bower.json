@@ -28,6 +28,8 @@
     "webkit-sass-reset": "afeiship/webkit-sass-reset",
     "webkit-sass-generators": "afeiship/webkit-sass-generators",
     "webkit-sass-flex-grid": "afeiship/webkit-sass-flex-grid",
-    "webkit-cssui-short-name": "afeiship/webkit-cssui-short-name"
+    "webkit-cssui-short-name": "afeiship/webkit-cssui-short-name",
+    "webkit-sass-functions": "afeiship/webkit-sass-functions",
+    "webkit-sass-mixins": "afeiship/webkit-sass-mixins"
   }
 }
