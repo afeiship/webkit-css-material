@@ -2,8 +2,8 @@
   "name": "webkit-material",
   "description": "webkit css material of scss version.",
   "main": [
-    "dist/webkit-material.css",
-    "dist/webkit-material.scss"
+    "dist/webkit-sass-material.css",
+    "dist/webkit-sass-material.scss"
   ],
   "authors": [
     "fei"
