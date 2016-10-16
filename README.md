@@ -7,10 +7,10 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" type="text/css" href="webkit-css-material/dist/style.css"/>
 ```
++ rem suppprt:
++ https://github.com/afeiship/resolution
 
 ##build:
 + cd webkit-css-material
 + npm install
 + gulp
-
-##description:
