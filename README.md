@@ -19,7 +19,13 @@ $grid-responsive-lg-break:        1023px !default; // smaller than landscape tab
 @import "dist/webkit-sass-material";
 ```
 + rem suppprt:
-+ https://github.com/afeiship/resolution
+  + https://github.com/afeiship/resolution
+  + use `to-rem` sass functions
+  ```
+  .f20{
+    font-size:to-rem(20);
+  }
+  ```
 
 ## architecture:
 > webkit-sass-material = (frame modules + sass modules + css modules)
