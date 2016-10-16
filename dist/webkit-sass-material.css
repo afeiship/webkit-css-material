@@ -584,7 +584,8 @@ img, input, select {
   display: block;
 }
 
-.di {
+.di,
+.di_ > * {
   display: inline;
 }
 
