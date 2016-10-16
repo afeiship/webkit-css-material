@@ -11,6 +11,9 @@
 + https://github.com/afeiship/resolution
 
 ## architecture:
+> webkit-sass-material = (frame modules + sass modules + css modules)
+
+### frame modules:
 | Module name     | Module description     |
 | :------------- | :------------- |
 | webkit-sass-functions       | webkit-sass-functions       |
@@ -19,10 +22,18 @@
 | webkit-sass-generators       | webkit-sass-generators       |
 | webkit-sass-flex-grid       | webkit-sass-flex-grid       |
 | webkit-cssui-short-name       | webkit-cssui-short-name       |
+
+
+### sass modules:
+| Module name     | Module description     |
+| :------------- | :------------- |
 | webkit-sassui-*       | webkit-sassui-*       |
+
+
+### css modules:
+| Module name     | Module description     |
+| :------------- | :------------- |
 | webkit-cssui-*       | webkit-cssui-*       |
-
-
 
 
 ##build:
