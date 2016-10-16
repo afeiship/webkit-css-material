@@ -28,7 +28,7 @@ $grid-responsive-lg-break:        1023px !default; // smaller than landscape tab
   ```
 
 ## architecture:
-> webkit-sass-material = (frame modules + sass modules + css modules)
+> webkit-sass-material = (frame modules + sass ui modules)
 
 ### frame modules:
 | Module name     | Module description     |
