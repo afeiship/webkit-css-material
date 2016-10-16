@@ -1,7 +1,10 @@
 {
-  "name": "webkit-scss-material",
+  "name": "webkit-material",
   "description": "webkit css material of scss version.",
-  "main": "dist/style.css",
+  "main": [
+    "dist/webkit-material.css",
+    "dist/webkit-material.scss"
+  ],
   "authors": [
     "fei"
   ],
@@ -20,5 +23,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "webkit-sass-reset": "afeiship/webkit-sass-reset",
+    "webkit-sass-generators": "afeiship/webkit-sass-generators",
+    "webkit-sass-flex-grid": "afeiship/webkit-sass-flex-grid",
+    "webkit-cssui-short-name": "afeiship/webkit-cssui-short-name"
+  }
 }

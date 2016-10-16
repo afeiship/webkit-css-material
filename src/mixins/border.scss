@@ -1,9 +1,0 @@
-/**border Start**/
-@mixin border-color-generator($inColorMap){
-  @each $name,$color in $inColorMap{
-    .bdc-#{$name}{
-      border-color:#{$color};
-    }
-  }
-}
-/**border  End**/

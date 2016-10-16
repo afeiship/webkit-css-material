@@ -11,27 +11,22 @@ var sass = require('gulp-sass');
 var del = require('del');
 var autoprefixer = require('gulp-autoprefixer');
 var debug = require('gulp-debug');
-var sourcemaps = require('gulp-sourcemaps');
-var config = {
-  sassOptions: {
-    outputStyle: 'expanded' /* nested | expanded | compact | compressed */
-  },
-  src: './src',
-  dist: './dist'
-};
-
+var rename = require('gulp-rename');
+var concat = require('gulp-concat');
 
 gulp.task('clean', function () {
-  return del(config.dist);
+  return del('dist');
 });
 
 gulp.task('sass', function () {
-  return gulp.src(config.src + '/style.scss')
-    .pipe(sourcemaps.init())
-    .pipe(sass(config.sassOptions).on('error', sass.logError))
-    .pipe(autoprefixer('last 4 version'))
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest(config.dist));
+  return gulp.src('src/*.scss')
+    .pipe(concat('webkit-sass-material.scss'))
+    .pipe(gulp.dest('dist'))
+    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
+    .pipe(gulp.dest('dist'))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(rename({extname:'.min.css'}))
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('default', ['clean'], function () {

@@ -1,4 +1,4 @@
-#webkit-css-material
+#webkit-sass-material
 
 ##usage:
 + html:
@@ -10,7 +10,7 @@
 
 ##build:
 + cd webkit-css-material
-+ npm install 
++ npm install
 + gulp
 
 ##description:

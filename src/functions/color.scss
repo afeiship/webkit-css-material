@@ -1,5 +1,0 @@
-/**color Start**/
-@function getColor($inKey){
-  @return map_get($color-map,$inKey);
-}
-/**color  End**/
