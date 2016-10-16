@@ -10,6 +10,21 @@
 + rem suppprt:
 + https://github.com/afeiship/resolution
 
+## architecture:
+| Module name     | Module description     |
+| :------------- | :------------- |
+| webkit-sass-functions       | webkit-sass-functions       |
+| webkit-sass-mixins       | webkit-sass-mixins       |
+| webkit-sass-reset       | webkit-sass-reset       |
+| webkit-sass-generators       | webkit-sass-generators       |
+| webkit-sass-flex-grid       | webkit-sass-flex-grid       |
+| webkit-cssui-short-name       | webkit-cssui-short-name       |
+| webkit-sassui-*       | webkit-sassui-*       |
+| webkit-cssui-*       | webkit-cssui-*       |
+
+
+
+
 ##build:
 + cd webkit-css-material
 + npm install
