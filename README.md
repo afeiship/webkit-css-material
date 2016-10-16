@@ -1,11 +1,22 @@
 #webkit-sass-material
 
 ##usage:
-+ html:
-```html
-<meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-<meta name="format-detection" content="telephone=no">
-<link rel="stylesheet" type="text/css" href="webkit-css-material/dist/style.css"/>
++ import && config frame material:
+```sass
+//base config:
+$base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+$base-font-size-h1-3:14px;
+$base-font-size-h4-6:12px;
+
+//grid:
+$grid-padding-width:              10px !default;
+$grid-responsive-sm-break:        567px !default;  // smaller than landscape phone
+$grid-responsive-md-break:        767px !default;  // smaller than portrait tablet
+$grid-responsive-lg-break:        1023px !default; // smaller than landscape tablet
+
+//initial your generators:
+
+@import "dist/webkit-sass-material";
 ```
 + rem suppprt:
 + https://github.com/afeiship/resolution
