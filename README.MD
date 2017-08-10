@@ -46,8 +46,3 @@ $grid-responsive-lg-break:        1023px !default; // smaller than landscape tab
 | :------------- | :------------- |
 | webkit-sassui-*       | webkit-sassui-*       |
 
-
-## build:
-+ cd webkit-css-material
-+ npm install
-+ gulp
