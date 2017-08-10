@@ -1,6 +1,6 @@
-#webkit-sass-material
+# webkit-sass-material
 
-##usage:
+## usage:
 + import && config frame material:
 ```sass
 //base config:
@@ -47,7 +47,7 @@ $grid-responsive-lg-break:        1023px !default; // smaller than landscape tab
 | webkit-sassui-*       | webkit-sassui-*       |
 
 
-##build:
+## build:
 + cd webkit-css-material
 + npm install
 + gulp
