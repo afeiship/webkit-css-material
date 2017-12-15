@@ -38,7 +38,6 @@ $grid-responsive-lg-break:        1023px !default; // smaller than landscape tab
 | webkit-sass-reset       | webkit-sass-reset       |
 | webkit-sass-generators       | webkit-sass-generators       |
 | webkit-sass-flex-grid       | webkit-sass-flex-grid       |
-| webkit-sassui-short-name       | webkit-sassui-short-name       |
 
 
 ### sass modules:
