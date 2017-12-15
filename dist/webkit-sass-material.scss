@@ -1,4 +1,22 @@
-/*config Start*/
+/*webkit-material Start*/
+@import "../node_modules/webkit-sass-functions/dist/webkit-sass-functions.scss";
+@import "../node_modules/webkit-sass-mixins/dist/webkit-sass-mixins.scss";
+@import "../node_modules/webkit-sass-reset/dist/webkit-sass-reset.scss";
+@import "../node_modules/webkit-sass-generators/dist/webkit-sass-generators.scss";
+@import "../node_modules/webkit-sass-flexbox-grid/dist/webkit-sass-flexbox-grid.scss";
+
+
+//css ui modules:
+@import "../node_modules/webkit-sassui-short-name/dist/webkit-sassui-short-name.scss";
+
+//create generate styles:
+
+//create responsive grid:
+// @include responsive-grid-break('.responsive-sm', $grid-responsive-sm-break);
+// @include responsive-grid-break('.responsive-md', $grid-responsive-md-break);
+// @include responsive-grid-break('.responsive-lg', $grid-responsive-lg-break);
+
+
 
 //base:
 $base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
@@ -11,24 +29,5 @@ $grid-responsive-sm-break:        567px !default;  // smaller than landscape pho
 $grid-responsive-md-break:        767px !default;  // smaller than portrait tablet
 $grid-responsive-lg-break:        1023px !default; // smaller than landscape tablet
 
-/*config End*/
-
-/*webkit-material Start*/
-@import "../bower_components/webkit-sass-functions/dist/webkit-sass-functions.scss";
-@import "../bower_components/webkit-sass-mixins/dist/webkit-sass-mixins.scss";
-@import "../bower_components/webkit-sass-reset/dist/webkit-sass-reset.scss";
-@import "../bower_components/webkit-sass-generators/dist/webkit-sass-generator.scss";
-@import "../bower_components/webkit-sass-flex-grid/dist/webkit-sass-flex-grid.scss";
-
-
-//css ui modules:
-@import "../bower_components/webkit-sassui-short-name/dist/webkit-sassui-short-name.scss";
-
-//create generate styles:
-
-//create responsive grid:
-// @include responsive-grid-break('.responsive-sm', $grid-responsive-sm-break);
-// @include responsive-grid-break('.responsive-md', $grid-responsive-md-break);
-// @include responsive-grid-break('.responsive-lg', $grid-responsive-lg-break);
 
 /*webkit-material End*/

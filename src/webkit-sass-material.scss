@@ -2,12 +2,12 @@
 @import "../node_modules/webkit-sass-functions/dist/webkit-sass-functions.scss";
 @import "../node_modules/webkit-sass-mixins/dist/webkit-sass-mixins.scss";
 @import "../node_modules/webkit-sass-reset/dist/webkit-sass-reset.scss";
-@import "../node_modules/webkit-sass-generators/dist/webkit-sass-generator.scss";
-@import "../node_modules/webkit-sass-flex-grid/dist/webkit-sass-flex-grid.scss";
+@import "../node_modules/webkit-sass-generators/dist/webkit-sass-generators.scss";
+@import "../node_modules/webkit-sass-flexbox-grid/dist/webkit-sass-flexbox-grid.scss";
 
 
 //css ui modules:
-@import "../bower_components/webkit-sassui-short-name/dist/webkit-sassui-short-name.scss";
+@import "../node_modules/webkit-sassui-short-name/dist/webkit-sassui-short-name.scss";
 
 //create generate styles:
 
@@ -15,5 +15,19 @@
 // @include responsive-grid-break('.responsive-sm', $grid-responsive-sm-break);
 // @include responsive-grid-break('.responsive-md', $grid-responsive-md-break);
 // @include responsive-grid-break('.responsive-lg', $grid-responsive-lg-break);
+
+
+
+//base:
+$base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+$base-font-size-h1-3:14px;
+$base-font-size-h4-6:12px;
+
+//grid:
+$grid-padding-width:              10px !default;
+$grid-responsive-sm-break:        567px !default;  // smaller than landscape phone
+$grid-responsive-md-break:        767px !default;  // smaller than portrait tablet
+$grid-responsive-lg-break:        1023px !default; // smaller than landscape tablet
+
 
 /*webkit-material End*/
