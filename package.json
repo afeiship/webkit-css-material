@@ -23,5 +23,13 @@
     "gulp-sourcemaps": "^1.6.0",
     "lodash": "~3.10.1",
     "rename": "^1.0.3"
+  },
+  "dependencies": {
+    "webkit-sass-flexbox-grid": "github:afeiship/webkit-sass-flexbox-grid",
+    "webkit-sass-functions": "github:afeiship/webkit-sass-functions",
+    "webkit-sass-generators": "github:afeiship/webkit-sass-generators",
+    "webkit-sass-mixins": "github:afeiship/webkit-sass-mixins",
+    "webkit-sass-reset": "github:afeiship/webkit-sass-reset",
+    "webkit-sassui-short-name": "github:afeiship/webkit-sassui-short-name"
   }
 }
