@@ -1,7 +1,7 @@
 {
   "name": "webkit-sass-material",
-  "version": "1.0.1",
-  "description": "",
+  "version": "0.0.1",
+  "description": "webkit css material",
   "scripts": {
     "build": "gulp"
   },
@@ -11,7 +11,7 @@
   },
   "author": "fei",
   "license": "MIT",
-  "main":"dist/webkit-sass-material.scss",
+  "main": "dist/webkit-sass-material.scss",
   "devDependencies": {
     "del": "~2.0.2",
     "gulp": "^3.9.1",

@@ -1,33 +1,50 @@
 /*webkit-material Start*/
-@import "../node_modules/webkit-sass-functions/dist/webkit-sass-functions.scss";
-@import "../node_modules/webkit-sass-mixins/dist/webkit-sass-mixins.scss";
-@import "../node_modules/webkit-sass-reset/dist/webkit-sass-reset.scss";
-@import "../node_modules/webkit-sass-generators/dist/webkit-sass-generators.scss";
-@import "../node_modules/webkit-sass-flexbox-grid/dist/webkit-sass-flexbox-grid.scss";
+@import "node_modules/webkit-sass-functions/dist/webkit-sass-functions.scss";
+@import "node_modules/webkit-sass-mixins/dist/webkit-sass-mixins.scss";
+@import "node_modules/webkit-sass-reset/dist/webkit-sass-reset.scss";
+@import "node_modules/webkit-sass-generators/dist/webkit-sass-generators.scss";
+@import "node_modules/webkit-sass-flexbox-grid/dist/webkit-sass-flexbox-grid.scss";
+@import "node_modules/webkit-sassui-short-name/dist/webkit-sassui-short-name.scss";
+@import "var";
 
 
-//css ui modules:
-@import "../node_modules/webkit-sassui-short-name/dist/webkit-sassui-short-name.scss";
-
-//create generate styles:
-
-//create responsive grid:
-// @include responsive-grid-break('.responsive-sm', $grid-responsive-sm-break);
-// @include responsive-grid-break('.responsive-md', $grid-responsive-md-break);
-// @include responsive-grid-break('.responsive-lg', $grid-responsive-lg-break);
+@include responsive-grid-break('.responsive-sm', $grid-responsive-sm-break);
+@include responsive-grid-break('.responsive-md', $grid-responsive-md-break);
+@include responsive-grid-break('.responsive-lg', $grid-responsive-lg-break);
 
 
 
-//base:
-$base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
-$base-font-size-h1-3:14px;
-$base-font-size-h4-6:12px;
+@include generator-color($color-map,'.c-');
+@include generator-background-color($color-map,'.bg-');
+@include generator-border-color($color-map,'.bdc-');
 
-//grid:
-$grid-padding-width:              10px !default;
-$grid-responsive-sm-break:        567px !default;  // smaller than landscape phone
-$grid-responsive-md-break:        767px !default;  // smaller than portrait tablet
-$grid-responsive-lg-break:        1023px !default; // smaller than landscape tablet
+
+//Generate width/blank/font-size/border-radius:
+@include generator-width-w1($w1-list,'.w1-');
+@include generator-width-wp($width-list,'.wp-');
+@include generator-blank($width-list,'.blank-');
+@include generator-font-size($font-list,'.f-');
+@include generator-border-radius($border-radius-list,'.bdr-');
+
+//Generate margin:
+@include generator-box($box-list,'m');
+@include generator-box($box-list,'mt');
+@include generator-box($box-list,'mr');
+@include generator-box($box-list,'ml');
+@include generator-box($box-list,'mb');
+@include generator-box($box-list,'mx');
+@include generator-box($box-list,'my');
+@include generator-box($box-list,'p');
+@include generator-box($box-list,'pt');
+@include generator-box($box-list,'pr');
+@include generator-box($box-list,'pl');
+@include generator-box($box-list,'pb');
+@include generator-box($box-list,'px');
+@include generator-box($box-list,'py');
+
+//Generate your own grid:
+@include generator-line($width-list,#f3f3f3,'.l-');
+@include generator-line-clamp($line-clamp,'.lc-');
 
 
 /*webkit-material End*/
