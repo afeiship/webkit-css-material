@@ -1590,51 +1590,6 @@ img, input, select {
   padding-right: 9px;
 }
 
-.pl1,
-.pl1_ > * {
-  padding-left: 1px;
-}
-
-.pl2,
-.pl2_ > * {
-  padding-left: 2px;
-}
-
-.pl3,
-.pl3_ > * {
-  padding-left: 3px;
-}
-
-.pl4,
-.pl4_ > * {
-  padding-left: 4px;
-}
-
-.pl5,
-.pl5_ > * {
-  padding-left: 5px;
-}
-
-.pl6,
-.pl6_ > * {
-  padding-left: 6px;
-}
-
-.pl7,
-.pl7_ > * {
-  padding-left: 7px;
-}
-
-.pl8,
-.pl8_ > * {
-  padding-left: 8px;
-}
-
-.pl9,
-.pl9_ > * {
-  padding-left: 9px;
-}
-
 .pb1,
 .pb1_ > * {
   padding-bottom: 1px;
@@ -1678,6 +1633,51 @@ img, input, select {
 .pb9,
 .pb9_ > * {
   padding-bottom: 9px;
+}
+
+.pl1,
+.pl1_ > * {
+  padding-left: 1px;
+}
+
+.pl2,
+.pl2_ > * {
+  padding-left: 2px;
+}
+
+.pl3,
+.pl3_ > * {
+  padding-left: 3px;
+}
+
+.pl4,
+.pl4_ > * {
+  padding-left: 4px;
+}
+
+.pl5,
+.pl5_ > * {
+  padding-left: 5px;
+}
+
+.pl6,
+.pl6_ > * {
+  padding-left: 6px;
+}
+
+.pl7,
+.pl7_ > * {
+  padding-left: 7px;
+}
+
+.pl8,
+.pl8_ > * {
+  padding-left: 8px;
+}
+
+.pl9,
+.pl9_ > * {
+  padding-left: 9px;
 }
 
 .px1,

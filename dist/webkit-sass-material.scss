@@ -35,8 +35,8 @@
 @include generator-box($box-list,'p');
 @include generator-box($box-list,'pt');
 @include generator-box($box-list,'pr');
-@include generator-box($box-list,'pl');
 @include generator-box($box-list,'pb');
+@include generator-box($box-list,'pl');
 @include generator-box($box-list,'px');
 @include generator-box($box-list,'py');
 
