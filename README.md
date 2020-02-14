@@ -1,7 +1,12 @@
 # webkit-sass-material
 > webkit css material
 
-## usage:
+## installation
+```shell
+npm i @feizheng/webkit-sass-material
+```
+
+## usage
 + import && config frame material:
 ```sass
 //base config:
@@ -28,21 +33,21 @@ $grid-responsive-lg-break:        1023px !default; // smaller than landscape tab
   }
   ```
 
-## architecture:
+## architecture
 > webkit-sass-material = (frame modules + sass ui modules)
 
-### frame modules:
-| Module name     | Module description     |
-| :------------- | :------------- |
-| webkit-sass-functions       | webkit-sass-functions       |
-| webkit-sass-mixins       | webkit-sass-mixins       |
-| webkit-sass-reset       | webkit-sass-reset       |
-| webkit-sass-generators       | webkit-sass-generators       |
-| webkit-sass-flex-grid       | webkit-sass-flex-grid       |
+### frame modules
+| Module name            | Module description     |
+| :--------------------- | :--------------------- |
+| webkit-sass-functions  | webkit-sass-functions  |
+| webkit-sass-mixins     | webkit-sass-mixins     |
+| webkit-sass-reset      | webkit-sass-reset      |
+| webkit-sass-generators | webkit-sass-generators |
+| webkit-sass-flex-grid  | webkit-sass-flex-grid  |
 
 
-### sass modules:
-| Module name     | Module description     |
-| :------------- | :------------- |
-| webkit-sassui-*       | webkit-sassui-*       |
+### sass modules
+| Module name     | Module description |
+| :-------------- | :----------------- |
+| webkit-sassui-* | webkit-sassui-*    |
 
