@@ -5,9 +5,7 @@ $base-font-size-h4-6: 12px !default;
 
 //grid:
 $grid-padding-width: 10px !default;
-$grid-responsive-sm-break: 567px !default; // smaller than landscape phone
-$grid-responsive-md-break: 767px !default; // smaller than portrait tablet
-$grid-responsive-lg-break: 1023px !default; // smaller than landscape tablet
+$grid-responsive:();
 
 // generators:
 
@@ -17,6 +15,11 @@ $color-map: (
   3: #333,
   6: #666,
   9: #999,
+  a: #aaa,
+  b: #bbb,
+  c: #ccc,
+  d: #ddd,
+  e: #eee,
   f: #fff
 ) !default;
 
@@ -24,7 +27,7 @@ $width-list: (1, 2, 3, 4, 5, 6, 7, 8, 9) !default;
 $box-list: (1, 2, 3, 4, 5, 6, 7, 8, 9) !default;
 
 //Generate a list:
-$w1-list: generate-list(1, 20) !default;
+$w1-list: generate-list(1, 10) !default;
 $border-radius-list: generate-list(1, 5) !default;
-$font-list: (10, 12, 14, 16, 18, 20, 30) !default;
+$font-list: (10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30) !default;
 $line-clamp: (1, 2, 3) !default;

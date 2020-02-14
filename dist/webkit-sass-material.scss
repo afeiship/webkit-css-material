@@ -1,16 +1,10 @@
 /*webkit-material Start*/
-@import "node_modules/webkit-sass-functions/dist/webkit-sass-functions.scss";
-@import "node_modules/webkit-sass-mixins/dist/webkit-sass-mixins.scss";
-@import "node_modules/webkit-sass-reset/dist/webkit-sass-reset.scss";
-@import "node_modules/webkit-sass-generators/dist/webkit-sass-generators.scss";
-@import "node_modules/webkit-sass-flexbox-grid/dist/webkit-sass-flexbox-grid.scss";
+@import "node_modules/@feizheng/webkit-sass-functions/dist/webkit-sass-functions.scss";
+@import "node_modules/@feizheng/webkit-sass-mixins/dist/webkit-sass-mixins.scss";
+@import "node_modules/@feizheng/webkit-sass-reset/dist/webkit-sass-reset.scss";
+@import "node_modules/@feizheng/webkit-sass-generators/dist/webkit-sass-generators.scss";
+@import "node_modules/@feizheng/webkit-sass-flexbox-grid/dist/webkit-sass-flexbox-grid.scss";
 @import "var";
-
-
-@include responsive-grid-break('.responsive-sm', $grid-responsive-sm-break);
-@include responsive-grid-break('.responsive-md', $grid-responsive-md-break);
-@include responsive-grid-break('.responsive-lg', $grid-responsive-lg-break);
-
 
 @include generator-color($color-map,'.c-');
 @include generator-background-color($color-map,'.bg-');
@@ -45,5 +39,5 @@
 @include generator-line-clamp($line-clamp,'.lc-');
 
 
-@import "node_modules/webkit-sassui-short-name/dist/webkit-sassui-short-name.scss";
+@import "node_modules/@feizheng/webkit-sassui-short-name/dist/webkit-sassui-short-name.scss";
 /*webkit-material End*/
