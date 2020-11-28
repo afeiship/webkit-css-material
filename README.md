@@ -13,7 +13,7 @@ npm i @jswork/wsui
 
 ## usage
 + import && config frame material:
-```sass
+```scss
 //base config:
 $base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
 $base-font-size-h1-3:14px;
