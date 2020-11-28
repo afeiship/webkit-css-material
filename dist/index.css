@@ -1,30 +1,42 @@
+/*!
+ * name: @jswork/wsui
+ * description: webkit css material scss version.
+ * homepage: 
+ * version: 1.0.0
+ * date: 2020-11-28 18:34:48
+ * license: MIT
+ */
 /*webkit-material Start*/
-/*black Start*/
-/*black End*/
-/*debug Start*/
-/*debug End*/
-/*dynamic-text-color Start*/
-/*dynamic-text-color End*/
-/*first Start*/
-/*first End*/
-/*generate-list Start*/
-/*generate-list End*/
+/*!
+ * name: @jswork/wsui-functions
+ * description: Webkit sass functions.
+ * homepage: https://github.com/afeiship/wsui-functions
+ * version: 1.0.1
+ * date: 2020-11-28 16:14:04
+ * license: MIT
+ */
 /*last Start*/
 /*last End*/
-/*map-deep-get Start*/
-/*map-deep-get End*/
-/*purge Start*/
-/*purge End*/
-/*rem Start*/
+/*dynamic-text-color Start*/
+/*dynamic-text-color End*/
+/*range Start*/
+/*range End*/
+/*rempx Start*/
 /*rem End*/
 /*remove-duplicates Start*/
 /*remove-duplicates End*/
-/*rpx Start*/
-/*rpx End*/
 /*strip-units Start*/
 /*strip-units End*/
-/*flexbox Start*/
-/*flexbox End*/
+/*map-deep-get Start*/
+/*map-deep-get End*/
+/*!
+ * name: @jswork/wsui-mixins
+ * description: Webkit sass mixins.
+ * homepage: https://github.com/afeiship/wsui-mixins
+ * version: 1.0.0
+ * date: 2020-11-28 17:58:19
+ * license: MIT
+ */
 /*animation Start*/
 /*animation End*/
 /*appearance Start*/
@@ -49,6 +61,8 @@
 /*filter End*/
 /*grid Start*/
 /*grid End*/
+/*flexbox Start*/
+/*flexbox End*/
 /*flip Start*/
 /*flip End*/
 /*grid Start*/
@@ -87,8 +101,26 @@
  */
 /*user-select Start*/
 /*user-select End*/
-/**reset Start**/
-/**reset Start**/
+/*width Start*/
+/*width End*/
+/*!
+ * name: @jswork/wsui-reset
+ * description: Reset css for wsui.
+ * homepage: https://github.com/afeiship/wsui-reset
+ * version: 1.0.2
+ * date: 2020-11-18 20:49:39
+ * license: MIT
+ */
+/*wsui-reset Start*/
+/*!
+ * name: @jswork/wsui-reset
+ * description: Reset css for wsui.
+ * homepage: https://github.com/afeiship/wsui-reset
+ * version: 1.0.2
+ * date: 2020-11-18 20:49:39
+ * license: MIT
+ */
+/**base Start**/
 *,
 :after,
 :before {
@@ -231,9 +263,9 @@ select {
   vertical-align: middle;
 }
 
-/**reset  End**/
+/**base  End**/
 body {
-  font-family: "STHeiti", "Microsoft YaHei", Helvetica, Arial, sans-serif;
+  font-family: "STHeiti, Microsoft YaHei, Helvetica, Arial, sans-serif";
 }
 
 s,
@@ -259,44 +291,24 @@ li {
   list-style-type: none;
 }
 
-/**reset  End**/
-/* init start*/
-/*black Start*/
-/*black End*/
-/*debug Start*/
-/*debug End*/
-/*dynamic-text-color Start*/
-/*dynamic-text-color End*/
-/*first Start*/
-/*first End*/
-/*generate-list Start*/
-/*generate-list End*/
-/*last Start*/
-/*last End*/
-/*map-deep-get Start*/
-/*map-deep-get End*/
-/*purge Start*/
-/*purge End*/
-/*rem Start*/
-/*rem End*/
-/*remove-duplicates Start*/
-/*remove-duplicates End*/
-/*rpx Start*/
-/*rpx End*/
-/*strip-units Start*/
-/*strip-units End*/
-/* init end*/
-/*background-color Start*/
-/*background-color End*/
-/*blank Start*/
-.blank, .blank-1, .blank-2, .blank-3, .blank-4, .blank-5, .blank-6, .blank-7, .blank-8, .blank-9, .l-1, .l-2, .l-3, .l-4, .l-5, .l-6, .l-7, .l-8, .l-9 {
+/*wsui-reset End*/
+/*!
+ * name: @jswork/wsui-generators
+ * description: Webkit sass generator mixins.
+ * homepage: https://github.com/afeiship/wsui-generators
+ * version: 1.0.0
+ * date: 2020-11-28 17:45:52
+ * license: MIT
+ */
+.sp-1, .sp-2, .sp-3, .sp-4, .sp-5, .sp-6, .sp-7, .sp-8, .sp-9, .line-1, .line-2, .line-3, .line-4, .line-5, .line-6, .line-7, .line-8, .line-9 {
   display: block;
   font-size: 0;
   overflow: hidden;
   clear: both;
 }
 
-/*blank End*/
+/*background-color Start*/
+/*background-color End*/
 /*border-color Start*/
 /*border-color End*/
 /*border-radius Start*/
@@ -307,16 +319,6 @@ li {
 /*color End*/
 /*font-size Start*/
 /*font-size End*/
-/*grid Start*/
-.dib-col {
-  width: 100%;
-  display: inline-block;
-  font-size: 16px;
-}
-
-/*grid End*/
-/*line Start*/
-/*line End*/
 /*line-clamp Start*/
 .lc-1, .lc-2, .lc-3 {
   overflow: hidden;
@@ -329,10 +331,28 @@ li {
 /*line-clamp End*/
 /*line-height Start*/
 /*line-height End*/
+/*line Start*/
+/*line End*/
+/*space Start*/
+/*space End*/
 /*width Start*/
 /*width End*/
-/*flexbox Start*/
-/*flexbox End*/
+/*!
+ * name: @jswork/wsui-flexbox-grid
+ * description: Webkit sass flexbox grid system.
+ * homepage: https://github.com/afeiship/wsui-flexbox-grid
+ * version: 1.0.0
+ * date: 2020-11-28 18:17:55
+ * license: MIT
+ */
+/*!
+ * name: @jswork/wsui-mixins
+ * description: Webkit sass mixins.
+ * homepage: https://github.com/afeiship/wsui-mixins
+ * version: 1.0.0
+ * date: 2020-11-28 17:58:19
+ * license: MIT
+ */
 /*animation Start*/
 /*animation End*/
 /*appearance Start*/
@@ -357,6 +377,8 @@ li {
 /*filter End*/
 /*grid Start*/
 /*grid End*/
+/*flexbox Start*/
+/*flexbox End*/
 /*flip Start*/
 /*flip End*/
 /*grid Start*/
@@ -395,6 +417,8 @@ li {
  */
 /*user-select Start*/
 /*user-select End*/
+/*width Start*/
+/*width End*/
 /*_grid Start*/
 /**
  * Grid
@@ -410,7 +434,7 @@ li {
   box-sizing: border-box;
 }
 
-.row {
+.row-no-width, .row {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -418,7 +442,19 @@ li {
   display: -ms-flexbox;
   display: flex;
   padding: 0;
+}
+
+.row {
   width: 100%;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .row-wrap {
@@ -441,11 +477,6 @@ li {
 
 .row-no-padding > .col {
   padding: 0;
-}
-
-.row + .row {
-  margin-top: 0;
-  padding-top: 0;
 }
 
 .column {
@@ -485,6 +516,24 @@ li {
   -moz-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+}
+
+.box-row-reverse {
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.box-column-reverse {
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column-reverse;
+  -moz-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 
 /* Vertically Align Columns */
@@ -620,7 +669,8 @@ li {
   margin-left: 25%;
 }
 
-.col-offset-33, .col-offset-34 {
+.col-offset-33,
+.col-offset-34 {
   margin-left: 33.3333%;
 }
 
@@ -628,7 +678,8 @@ li {
   margin-left: 50%;
 }
 
-.col-offset-66, .col-offset-67 {
+.col-offset-66,
+.col-offset-67 {
   margin-left: 66.6666%;
 }
 
@@ -688,7 +739,8 @@ li {
   width: 30%;
 }
 
-.col-33, .col-34 {
+.col-33,
+.col-34 {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 33.3333%;
   -moz-box-flex: 0;
@@ -728,7 +780,8 @@ li {
   width: 60%;
 }
 
-.col-66, .col-67 {
+.col-66,
+.col-67 {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 66.6666%;
   -moz-box-flex: 0;
@@ -864,43 +917,43 @@ li {
   background-color: #fff;
 }
 
-.bdc-0 {
+.bcd-0 {
   border-color: #000;
 }
 
-.bdc-3 {
+.bcd-3 {
   border-color: #333;
 }
 
-.bdc-6 {
+.bcd-6 {
   border-color: #666;
 }
 
-.bdc-9 {
+.bcd-9 {
   border-color: #999;
 }
 
-.bdc-a {
+.bcd-a {
   border-color: #aaa;
 }
 
-.bdc-b {
+.bcd-b {
   border-color: #bbb;
 }
 
-.bdc-c {
+.bcd-c {
   border-color: #ccc;
 }
 
-.bdc-d {
+.bcd-d {
   border-color: #ddd;
 }
 
-.bdc-e {
+.bcd-e {
   border-color: #eee;
 }
 
-.bdc-f {
+.bcd-f {
   border-color: #fff;
 }
 
@@ -980,39 +1033,39 @@ li {
   width: 90%;
 }
 
-.blank-1 {
+.sp-1 {
   height: 1px;
 }
 
-.blank-2 {
+.sp-2 {
   height: 2px;
 }
 
-.blank-3 {
+.sp-3 {
   height: 3px;
 }
 
-.blank-4 {
+.sp-4 {
   height: 4px;
 }
 
-.blank-5 {
+.sp-5 {
   height: 5px;
 }
 
-.blank-6 {
+.sp-6 {
   height: 6px;
 }
 
-.blank-7 {
+.sp-7 {
   height: 7px;
 }
 
-.blank-8 {
+.sp-8 {
   height: 8px;
 }
 
-.blank-9 {
+.sp-9 {
   height: 9px;
 }
 
@@ -1080,715 +1133,710 @@ li {
   border-radius: 5px;
 }
 
-.m1,
-.m1_ > * {
+.m-1,
+.m-1_ > * {
   margin: 1px;
 }
 
-.m2,
-.m2_ > * {
+.m-2,
+.m-2_ > * {
   margin: 2px;
 }
 
-.m3,
-.m3_ > * {
+.m-3,
+.m-3_ > * {
   margin: 3px;
 }
 
-.m4,
-.m4_ > * {
+.m-4,
+.m-4_ > * {
   margin: 4px;
 }
 
-.m5,
-.m5_ > * {
+.m-5,
+.m-5_ > * {
   margin: 5px;
 }
 
-.m6,
-.m6_ > * {
+.m-6,
+.m-6_ > * {
   margin: 6px;
 }
 
-.m7,
-.m7_ > * {
+.m-7,
+.m-7_ > * {
   margin: 7px;
 }
 
-.m8,
-.m8_ > * {
+.m-8,
+.m-8_ > * {
   margin: 8px;
 }
 
-.m9,
-.m9_ > * {
+.m-9,
+.m-9_ > * {
   margin: 9px;
 }
 
-.mt1,
-.mt1_ > * {
+.mt-1,
+.mt-1_ > * {
   margin-top: 1px;
 }
 
-.mt2,
-.mt2_ > * {
+.mt-2,
+.mt-2_ > * {
   margin-top: 2px;
 }
 
-.mt3,
-.mt3_ > * {
+.mt-3,
+.mt-3_ > * {
   margin-top: 3px;
 }
 
-.mt4,
-.mt4_ > * {
+.mt-4,
+.mt-4_ > * {
   margin-top: 4px;
 }
 
-.mt5,
-.mt5_ > * {
+.mt-5,
+.mt-5_ > * {
   margin-top: 5px;
 }
 
-.mt6,
-.mt6_ > * {
+.mt-6,
+.mt-6_ > * {
   margin-top: 6px;
 }
 
-.mt7,
-.mt7_ > * {
+.mt-7,
+.mt-7_ > * {
   margin-top: 7px;
 }
 
-.mt8,
-.mt8_ > * {
+.mt-8,
+.mt-8_ > * {
   margin-top: 8px;
 }
 
-.mt9,
-.mt9_ > * {
+.mt-9,
+.mt-9_ > * {
   margin-top: 9px;
 }
 
-.mr1,
-.mr1_ > * {
+.mr-1,
+.mr-1_ > * {
   margin-right: 1px;
 }
 
-.mr2,
-.mr2_ > * {
+.mr-2,
+.mr-2_ > * {
   margin-right: 2px;
 }
 
-.mr3,
-.mr3_ > * {
+.mr-3,
+.mr-3_ > * {
   margin-right: 3px;
 }
 
-.mr4,
-.mr4_ > * {
+.mr-4,
+.mr-4_ > * {
   margin-right: 4px;
 }
 
-.mr5,
-.mr5_ > * {
+.mr-5,
+.mr-5_ > * {
   margin-right: 5px;
 }
 
-.mr6,
-.mr6_ > * {
+.mr-6,
+.mr-6_ > * {
   margin-right: 6px;
 }
 
-.mr7,
-.mr7_ > * {
+.mr-7,
+.mr-7_ > * {
   margin-right: 7px;
 }
 
-.mr8,
-.mr8_ > * {
+.mr-8,
+.mr-8_ > * {
   margin-right: 8px;
 }
 
-.mr9,
-.mr9_ > * {
+.mr-9,
+.mr-9_ > * {
   margin-right: 9px;
 }
 
-.ml1,
-.ml1_ > * {
+.ml-1,
+.ml-1_ > * {
   margin-left: 1px;
 }
 
-.ml2,
-.ml2_ > * {
+.ml-2,
+.ml-2_ > * {
   margin-left: 2px;
 }
 
-.ml3,
-.ml3_ > * {
+.ml-3,
+.ml-3_ > * {
   margin-left: 3px;
 }
 
-.ml4,
-.ml4_ > * {
+.ml-4,
+.ml-4_ > * {
   margin-left: 4px;
 }
 
-.ml5,
-.ml5_ > * {
+.ml-5,
+.ml-5_ > * {
   margin-left: 5px;
 }
 
-.ml6,
-.ml6_ > * {
+.ml-6,
+.ml-6_ > * {
   margin-left: 6px;
 }
 
-.ml7,
-.ml7_ > * {
+.ml-7,
+.ml-7_ > * {
   margin-left: 7px;
 }
 
-.ml8,
-.ml8_ > * {
+.ml-8,
+.ml-8_ > * {
   margin-left: 8px;
 }
 
-.ml9,
-.ml9_ > * {
+.ml-9,
+.ml-9_ > * {
   margin-left: 9px;
 }
 
-.mb1,
-.mb1_ > * {
+.mb-1,
+.mb-1_ > * {
   margin-bottom: 1px;
 }
 
-.mb2,
-.mb2_ > * {
+.mb-2,
+.mb-2_ > * {
   margin-bottom: 2px;
 }
 
-.mb3,
-.mb3_ > * {
+.mb-3,
+.mb-3_ > * {
   margin-bottom: 3px;
 }
 
-.mb4,
-.mb4_ > * {
+.mb-4,
+.mb-4_ > * {
   margin-bottom: 4px;
 }
 
-.mb5,
-.mb5_ > * {
+.mb-5,
+.mb-5_ > * {
   margin-bottom: 5px;
 }
 
-.mb6,
-.mb6_ > * {
+.mb-6,
+.mb-6_ > * {
   margin-bottom: 6px;
 }
 
-.mb7,
-.mb7_ > * {
+.mb-7,
+.mb-7_ > * {
   margin-bottom: 7px;
 }
 
-.mb8,
-.mb8_ > * {
+.mb-8,
+.mb-8_ > * {
   margin-bottom: 8px;
 }
 
-.mb9,
-.mb9_ > * {
+.mb-9,
+.mb-9_ > * {
   margin-bottom: 9px;
 }
 
-.mx1,
-.mx1_ > * {
+.mx-1,
+.mx-1_ > * {
   margin-left: 1px;
   margin-right: 1px;
 }
 
-.mx2,
-.mx2_ > * {
+.mx-2,
+.mx-2_ > * {
   margin-left: 2px;
   margin-right: 2px;
 }
 
-.mx3,
-.mx3_ > * {
+.mx-3,
+.mx-3_ > * {
   margin-left: 3px;
   margin-right: 3px;
 }
 
-.mx4,
-.mx4_ > * {
+.mx-4,
+.mx-4_ > * {
   margin-left: 4px;
   margin-right: 4px;
 }
 
-.mx5,
-.mx5_ > * {
+.mx-5,
+.mx-5_ > * {
   margin-left: 5px;
   margin-right: 5px;
 }
 
-.mx6,
-.mx6_ > * {
+.mx-6,
+.mx-6_ > * {
   margin-left: 6px;
   margin-right: 6px;
 }
 
-.mx7,
-.mx7_ > * {
+.mx-7,
+.mx-7_ > * {
   margin-left: 7px;
   margin-right: 7px;
 }
 
-.mx8,
-.mx8_ > * {
+.mx-8,
+.mx-8_ > * {
   margin-left: 8px;
   margin-right: 8px;
 }
 
-.mx9,
-.mx9_ > * {
+.mx-9,
+.mx-9_ > * {
   margin-left: 9px;
   margin-right: 9px;
 }
 
-.my1,
-.my1_ > * {
+.my-1,
+.my-1_ > * {
   margin-top: 1px;
   margin-bottom: 1px;
 }
 
-.my2,
-.my2_ > * {
+.my-2,
+.my-2_ > * {
   margin-top: 2px;
   margin-bottom: 2px;
 }
 
-.my3,
-.my3_ > * {
+.my-3,
+.my-3_ > * {
   margin-top: 3px;
   margin-bottom: 3px;
 }
 
-.my4,
-.my4_ > * {
+.my-4,
+.my-4_ > * {
   margin-top: 4px;
   margin-bottom: 4px;
 }
 
-.my5,
-.my5_ > * {
+.my-5,
+.my-5_ > * {
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.my6,
-.my6_ > * {
+.my-6,
+.my-6_ > * {
   margin-top: 6px;
   margin-bottom: 6px;
 }
 
-.my7,
-.my7_ > * {
+.my-7,
+.my-7_ > * {
   margin-top: 7px;
   margin-bottom: 7px;
 }
 
-.my8,
-.my8_ > * {
+.my-8,
+.my-8_ > * {
   margin-top: 8px;
   margin-bottom: 8px;
 }
 
-.my9,
-.my9_ > * {
+.my-9,
+.my-9_ > * {
   margin-top: 9px;
   margin-bottom: 9px;
 }
 
-.p1,
-.p1_ > * {
+.p-1,
+.p-1_ > * {
   padding: 1px;
 }
 
-.p2,
-.p2_ > * {
+.p-2,
+.p-2_ > * {
   padding: 2px;
 }
 
-.p3,
-.p3_ > * {
+.p-3,
+.p-3_ > * {
   padding: 3px;
 }
 
-.p4,
-.p4_ > * {
+.p-4,
+.p-4_ > * {
   padding: 4px;
 }
 
-.p5,
-.p5_ > * {
+.p-5,
+.p-5_ > * {
   padding: 5px;
 }
 
-.p6,
-.p6_ > * {
+.p-6,
+.p-6_ > * {
   padding: 6px;
 }
 
-.p7,
-.p7_ > * {
+.p-7,
+.p-7_ > * {
   padding: 7px;
 }
 
-.p8,
-.p8_ > * {
+.p-8,
+.p-8_ > * {
   padding: 8px;
 }
 
-.p9,
-.p9_ > * {
+.p-9,
+.p-9_ > * {
   padding: 9px;
 }
 
-.pt1,
-.pt1_ > * {
+.pt-1,
+.pt-1_ > * {
   padding-top: 1px;
 }
 
-.pt2,
-.pt2_ > * {
+.pt-2,
+.pt-2_ > * {
   padding-top: 2px;
 }
 
-.pt3,
-.pt3_ > * {
+.pt-3,
+.pt-3_ > * {
   padding-top: 3px;
 }
 
-.pt4,
-.pt4_ > * {
+.pt-4,
+.pt-4_ > * {
   padding-top: 4px;
 }
 
-.pt5,
-.pt5_ > * {
+.pt-5,
+.pt-5_ > * {
   padding-top: 5px;
 }
 
-.pt6,
-.pt6_ > * {
+.pt-6,
+.pt-6_ > * {
   padding-top: 6px;
 }
 
-.pt7,
-.pt7_ > * {
+.pt-7,
+.pt-7_ > * {
   padding-top: 7px;
 }
 
-.pt8,
-.pt8_ > * {
+.pt-8,
+.pt-8_ > * {
   padding-top: 8px;
 }
 
-.pt9,
-.pt9_ > * {
+.pt-9,
+.pt-9_ > * {
   padding-top: 9px;
 }
 
-.pr1,
-.pr1_ > * {
+.pr-1,
+.pr-1_ > * {
   padding-right: 1px;
 }
 
-.pr2,
-.pr2_ > * {
+.pr-2,
+.pr-2_ > * {
   padding-right: 2px;
 }
 
-.pr3,
-.pr3_ > * {
+.pr-3,
+.pr-3_ > * {
   padding-right: 3px;
 }
 
-.pr4,
-.pr4_ > * {
+.pr-4,
+.pr-4_ > * {
   padding-right: 4px;
 }
 
-.pr5,
-.pr5_ > * {
+.pr-5,
+.pr-5_ > * {
   padding-right: 5px;
 }
 
-.pr6,
-.pr6_ > * {
+.pr-6,
+.pr-6_ > * {
   padding-right: 6px;
 }
 
-.pr7,
-.pr7_ > * {
+.pr-7,
+.pr-7_ > * {
   padding-right: 7px;
 }
 
-.pr8,
-.pr8_ > * {
+.pr-8,
+.pr-8_ > * {
   padding-right: 8px;
 }
 
-.pr9,
-.pr9_ > * {
+.pr-9,
+.pr-9_ > * {
   padding-right: 9px;
 }
 
-.pb1,
-.pb1_ > * {
+.pb-1,
+.pb-1_ > * {
   padding-bottom: 1px;
 }
 
-.pb2,
-.pb2_ > * {
+.pb-2,
+.pb-2_ > * {
   padding-bottom: 2px;
 }
 
-.pb3,
-.pb3_ > * {
+.pb-3,
+.pb-3_ > * {
   padding-bottom: 3px;
 }
 
-.pb4,
-.pb4_ > * {
+.pb-4,
+.pb-4_ > * {
   padding-bottom: 4px;
 }
 
-.pb5,
-.pb5_ > * {
+.pb-5,
+.pb-5_ > * {
   padding-bottom: 5px;
 }
 
-.pb6,
-.pb6_ > * {
+.pb-6,
+.pb-6_ > * {
   padding-bottom: 6px;
 }
 
-.pb7,
-.pb7_ > * {
+.pb-7,
+.pb-7_ > * {
   padding-bottom: 7px;
 }
 
-.pb8,
-.pb8_ > * {
+.pb-8,
+.pb-8_ > * {
   padding-bottom: 8px;
 }
 
-.pb9,
-.pb9_ > * {
+.pb-9,
+.pb-9_ > * {
   padding-bottom: 9px;
 }
 
-.pl1,
-.pl1_ > * {
+.pl-1,
+.pl-1_ > * {
   padding-left: 1px;
 }
 
-.pl2,
-.pl2_ > * {
+.pl-2,
+.pl-2_ > * {
   padding-left: 2px;
 }
 
-.pl3,
-.pl3_ > * {
+.pl-3,
+.pl-3_ > * {
   padding-left: 3px;
 }
 
-.pl4,
-.pl4_ > * {
+.pl-4,
+.pl-4_ > * {
   padding-left: 4px;
 }
 
-.pl5,
-.pl5_ > * {
+.pl-5,
+.pl-5_ > * {
   padding-left: 5px;
 }
 
-.pl6,
-.pl6_ > * {
+.pl-6,
+.pl-6_ > * {
   padding-left: 6px;
 }
 
-.pl7,
-.pl7_ > * {
+.pl-7,
+.pl-7_ > * {
   padding-left: 7px;
 }
 
-.pl8,
-.pl8_ > * {
+.pl-8,
+.pl-8_ > * {
   padding-left: 8px;
 }
 
-.pl9,
-.pl9_ > * {
+.pl-9,
+.pl-9_ > * {
   padding-left: 9px;
 }
 
-.px1,
-.px1_ > * {
+.px-1,
+.px-1_ > * {
   padding-left: 1px;
   padding-right: 1px;
 }
 
-.px2,
-.px2_ > * {
+.px-2,
+.px-2_ > * {
   padding-left: 2px;
   padding-right: 2px;
 }
 
-.px3,
-.px3_ > * {
+.px-3,
+.px-3_ > * {
   padding-left: 3px;
   padding-right: 3px;
 }
 
-.px4,
-.px4_ > * {
+.px-4,
+.px-4_ > * {
   padding-left: 4px;
   padding-right: 4px;
 }
 
-.px5,
-.px5_ > * {
+.px-5,
+.px-5_ > * {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.px6,
-.px6_ > * {
+.px-6,
+.px-6_ > * {
   padding-left: 6px;
   padding-right: 6px;
 }
 
-.px7,
-.px7_ > * {
+.px-7,
+.px-7_ > * {
   padding-left: 7px;
   padding-right: 7px;
 }
 
-.px8,
-.px8_ > * {
+.px-8,
+.px-8_ > * {
   padding-left: 8px;
   padding-right: 8px;
 }
 
-.px9,
-.px9_ > * {
+.px-9,
+.px-9_ > * {
   padding-left: 9px;
   padding-right: 9px;
 }
 
-.py1,
-.py1_ > * {
+.py-1,
+.py-1_ > * {
   padding-top: 1px;
   padding-bottom: 1px;
 }
 
-.py2,
-.py2_ > * {
+.py-2,
+.py-2_ > * {
   padding-top: 2px;
   padding-bottom: 2px;
 }
 
-.py3,
-.py3_ > * {
+.py-3,
+.py-3_ > * {
   padding-top: 3px;
   padding-bottom: 3px;
 }
 
-.py4,
-.py4_ > * {
+.py-4,
+.py-4_ > * {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-.py5,
-.py5_ > * {
+.py-5,
+.py-5_ > * {
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-.py6,
-.py6_ > * {
+.py-6,
+.py-6_ > * {
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-.py7,
-.py7_ > * {
+.py-7,
+.py-7_ > * {
   padding-top: 7px;
   padding-bottom: 7px;
 }
 
-.py8,
-.py8_ > * {
+.py-8,
+.py-8_ > * {
   padding-top: 8px;
   padding-bottom: 8px;
 }
 
-.py9,
-.py9_ > * {
+.py-9,
+.py-9_ > * {
   padding-top: 9px;
   padding-bottom: 9px;
 }
 
-.l-1 {
+.line-1, .line-2, .line-3, .line-4, .line-5, .line-6, .line-7, .line-8, .line-9 {
+  background-color: #f3f3f3;
+}
+
+.line-1 {
   height: 1px;
-  background-color: #f3f3f3;
 }
 
-.l-2 {
+.line-2 {
   height: 2px;
-  background-color: #f3f3f3;
 }
 
-.l-3 {
+.line-3 {
   height: 3px;
-  background-color: #f3f3f3;
 }
 
-.l-4 {
+.line-4 {
   height: 4px;
-  background-color: #f3f3f3;
 }
 
-.l-5 {
+.line-5 {
   height: 5px;
-  background-color: #f3f3f3;
 }
 
-.l-6 {
+.line-6 {
   height: 6px;
-  background-color: #f3f3f3;
 }
 
-.l-7 {
+.line-7 {
   height: 7px;
-  background-color: #f3f3f3;
 }
 
-.l-8 {
+.line-8 {
   height: 8px;
-  background-color: #f3f3f3;
 }
 
-.l-9 {
+.line-9 {
   height: 9px;
-  background-color: #f3f3f3;
 }
 
 .lc-1 {
@@ -1803,6 +1851,14 @@ li {
   -webkit-line-clamp: 3;
 }
 
+/*!
+ * name: @jswork/wsui-shorty
+ * description: Short and pithy style toolkits.
+ * homepage: https://github.com/afeiship/wsui-shorty
+ * version: 1.0.0
+ * date: 2020-11-18 16:54:51
+ * license: MIT
+ */
 /*align Start*/
 .vat,
 .vat_ > * {
@@ -1841,15 +1897,16 @@ li {
   box-sizing: content-box;
 }
 
-.bgdn {
-  border: none !important;
-  background: none !important;
-}
-
 /**box-sizing  End**/
+.square,
 .wh100 {
   width: 100%;
   height: 100%;
+}
+
+.bgdn {
+  border: none !important;
+  background: none !important;
 }
 
 /**clearfix Start**/
@@ -1881,13 +1938,6 @@ li {
 .rfix_:after,
 .lrfix_:after {
   clear: both;
-}
-
-.clfix:after {
-  clear: both;
-  content: "\200B";
-  display: block;
-  height: 0;
 }
 
 /**clearfix  End**/
@@ -1926,13 +1976,14 @@ li {
   display: inline;
 }
 
-.dn {
-  display: none;
-}
-
 .dib,
 .dib_ > * {
   display: inline-block;
+}
+
+.dtbc,
+.dtbc_ > * {
+  display: table-cell;
 }
 
 .dtb {
@@ -1943,9 +1994,8 @@ li {
   display: flex;
 }
 
-.dtbc,
-.dtbc_ > * {
-  display: table-cell;
+.dn {
+  display: none;
 }
 
 /**display  End**/
@@ -1979,7 +2029,7 @@ li {
 /**float  End**/
 /*font-size Start*/
 .f0 {
-  font-size: 0;
+  font-size: 0 !important;
 }
 
 /*font-size End*/
@@ -1999,6 +2049,10 @@ li {
 .auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.maa {
+  margin: auto;
 }
 
 .m0a {
@@ -2025,35 +2079,35 @@ li {
   margin-left: 0 !important;
 }
 
-.mr__ > *:last-child {
+.mr_ > *:last-child {
   margin-right: 0;
 }
 
-.ml__ > *:first-child {
+.ml_ > *:first-child {
   margin-left: 0;
 }
 
-.mt__ > *:first-child {
+.mt_ > *:first-child {
   margin-top: 0;
 }
 
-.mb__ > *:last-child {
+.mb_ > *:last-child {
   margin-bottom: 0;
 }
 
-.mt_ {
+.mt__ {
   margin-bottom: -1px;
 }
 
-.mr_ {
+.mr__ {
   margin-right: -1px;
 }
 
-.mb_ {
+.mb__ {
   margin-bottom: -1px;
 }
 
-.ml_ {
+.ml__ {
   margin-left: -1px;
 }
 
@@ -2107,19 +2161,19 @@ li {
   padding-left: 0 !important;
 }
 
-.pr__ > *:last-child {
+.pr_ > *:last-child {
   padding-right: 0;
 }
 
-.pl__ > *:first-child {
+.pl_ > *:first-child {
   padding-left: 0;
 }
 
-.pt__ > *:first-child {
+.pt_ > *:first-child {
   padding-top: 0;
 }
 
-.pb__ > *:last-child {
+.pb_ > *:last-child {
   padding-bottom: 0;
 }
 
@@ -2196,14 +2250,6 @@ li {
   left: 0;
 }
 
-.p-top {
-  top: 0;
-}
-
-.p-bottom {
-  bottom: 0;
-}
-
 .lt5 {
   left: 50%;
   top: 50%;
@@ -2247,6 +2293,14 @@ li {
 
 .l100 {
   left: 100%;
+}
+
+.p-top {
+  top: 0;
+}
+
+.p-bottom {
+  bottom: 0;
 }
 
 /**position  End**/
@@ -2308,6 +2362,10 @@ li {
   border-radius: 1000px;
 }
 
+.rect {
+  border-radius: none !important;
+}
+
 .radius-t0 {
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
@@ -2366,6 +2424,10 @@ li {
   text-align: right;
 }
 
+.tj {
+  text-align: justify;
+}
+
 .tlr_ > *:first-child {
   text-align: left;
 }
@@ -2399,12 +2461,26 @@ li {
 }
 
 /**text-decoration  End**/
+/** transform  End**/
+.tsy5 {
+  transform: translateY(-50%);
+}
+
+.tsx5 {
+  transform: translateX(-50%);
+}
+
+.tsxy5 {
+  transform: translate(-50%, -50%);
+}
+
+/** transform  End**/
 /**transparent Start**/
-.tran-text {
+.opacity-text {
   color: transparent;
 }
 
-.tran-bg {
+.opacity-bg {
   background: transparent;
 }
 

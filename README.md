@@ -1,9 +1,14 @@
-# webkit-sass-material
+# wsui
 > webkit css material
+
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+[![size][size-image]][size-url]
+[![download][download-image]][download-url]
 
 ## installation
 ```shell
-npm i @feizheng/webkit-sass-material
+npm i @jswork/wsui
 ```
 
 ## usage
@@ -22,32 +27,38 @@ $grid-responsive-lg-break:        1023px !default; // smaller than landscape tab
 
 //initial your generators:
 
-@import "dist/webkit-sass-material";
+@import "dist/wsui";
 ```
-+ rem suppprt:
-  + https://github.com/afeiship/resolution
-  + use `to-rem` sass functions
-  ```
-  .f20{
-    font-size:to-rem(20);
-  }
-  ```
-
 ## architecture
-> webkit-sass-material = (frame modules + sass ui modules)
+> wsui = (frame modules + sass ui modules)
 
-### frame modules
-| Module name            | Module description     |
-| :--------------------- | :--------------------- |
-| webkit-sass-functions  | webkit-sass-functions  |
-| webkit-sass-mixins     | webkit-sass-mixins     |
-| webkit-sass-reset      | webkit-sass-reset      |
-| webkit-sass-generators | webkit-sass-generators |
-| webkit-sass-flex-grid  | webkit-sass-flex-grid  |
+### core modules
+| Module name       | Module description |
+| :---------------- | :----------------- |
+| wsui-functions    | wsui-functions     |
+| wsui-mixins       | wsui-mixins        |
+| wsui-reset        | wsui-reset         |
+| wsui-generators   | wsui-generators    |
+| wsui-flexbox-grid | wsui-flexbox-grid  |
 
 
-### sass modules
-| Module name     | Module description |
-| :-------------- | :----------------- |
-| webkit-sassui-* | webkit-sassui-*    |
+### other ui modules
+| Module name | Module description |
+| :---------- | :----------------- |
+| wsui-*      | wsui-*             |
 
+
+## license
+Code released under [the MIT license](https://github.com/afeiship/wsui/blob/master/LICENSE.txt).
+
+[version-image]: https://img.shields.io/npm/v/@jswork/wsui
+[version-url]: https://npmjs.org/package/@jswork/wsui
+
+[license-image]: https://img.shields.io/npm/l/@jswork/wsui
+[license-url]: https://github.com/afeiship/wsui/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/wsui
+[size-url]: https://github.com/afeiship/wsui/blob/master/dist/wsui.min.js
+
+[download-image]: https://img.shields.io/npm/dm/@jswork/wsui
+[download-url]: https://www.npmjs.com/package/@jswork/wsui
