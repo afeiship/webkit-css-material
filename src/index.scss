@@ -10,9 +10,7 @@
 @include generator-background-color($color-map);
 @include generator-border-color($color-map);
 
-//Generate width/blank/font-size/border-radius:
-
-@include generator-space($width-list);
+@include generator-space($box-list);
 @include generator-font-size($font-list);
 @include generator-border-radius($border-radius-list);
 
@@ -34,7 +32,7 @@
 
 //Generate your own grid:
 @include generator-line($wp-list, #f3f3f3);
-@include generator-line-clamp($line-clamp);
+@include generator-line-clamp($line-clamp-list);
 
 @import "@jswork/wsui-shorty/dist/index.scss";
 /*webkit-material End*/

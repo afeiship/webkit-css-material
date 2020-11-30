@@ -19,27 +19,19 @@ $base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
 $base-font-size-h1-3:14px;
 $base-font-size-h4-6:12px;
 
-//grid:
-$grid-padding-width:              10px !default;
-$grid-responsive-sm-break:        567px !default;  // smaller than landscape phone
-$grid-responsive-md-break:        767px !default;  // smaller than portrait tablet
-$grid-responsive-lg-break:        1023px !default; // smaller than landscape tablet
-
-//initial your generators:
-
 @import "dist/wsui";
 ```
 ## architecture
 > wsui = (frame modules + sass ui modules)
 
 ### core modules
-| Module name       | Module description |
-| :---------------- | :----------------- |
-| wsui-functions    | wsui-functions     |
-| wsui-mixins       | wsui-mixins        |
-| wsui-reset        | wsui-reset         |
-| wsui-generators   | wsui-generators    |
-| wsui-flexbox-grid | wsui-flexbox-grid  |
+| Module name     | Module description |
+| :-------------- | :----------------- |
+| wsui-functions  | wsui-functions     |
+| wsui-mixins     | wsui-mixins        |
+| wsui-reset      | wsui-reset         |
+| wsui-generators | wsui-generators    |
+| wsui-flexbox    | wsui-flexbox       |
 
 
 ### other ui modules
