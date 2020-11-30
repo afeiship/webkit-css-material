@@ -5,7 +5,6 @@
   var path = require("path");
   var pkgHeader = require("@jswork/gulp-pkg-header");
   var SASS_INCLUDE_PATHS = [path.join(__dirname, "/node_modules/")];
-  var concat = require("gulp-concat");
 
   gulp.task("clean", function () {
     return del("dist");

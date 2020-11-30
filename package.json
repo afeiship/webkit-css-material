@@ -26,7 +26,7 @@
     "release-it": "^14.2.2"
   },
   "dependencies": {
-    "@jswork/wsui-flexbox-grid": "^1.0.0",
+    "@jswork/wsui-flexbox": "^1.0.0",
     "@jswork/wsui-functions": "^1.0.1",
     "@jswork/wsui-generators": "^1.0.0",
     "@jswork/wsui-mixins": "^1.0.0",
