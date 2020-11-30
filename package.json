@@ -1,6 +1,6 @@
 {
   "name": "@jswork/wsui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webkit css material scss version.",
   "scripts": {
     "build": "gulp",
